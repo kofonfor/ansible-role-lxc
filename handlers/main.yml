@@ -4,4 +4,4 @@
   notify: hup dnsmasq
 
 - name: hup dnsmasq
-  shell: killall -s SIGHUP dnsmasq
+  command: killall -s SIGHUP dnsmasq
